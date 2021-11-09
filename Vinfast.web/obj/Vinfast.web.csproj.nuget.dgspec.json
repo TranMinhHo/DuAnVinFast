@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DuAnVinFast\\Vinfast.web\\Vinfast.web.csproj": {}
+    "D:\\DuanVinFast\\Vinfast.web\\Vinfast.web.csproj": {}
   },
   "projects": {
-    "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj": {
+    "D:\\DuanVinFast\\Vinfast.api\\Vinfast.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj",
+        "projectUniqueName": "D:\\DuanVinFast\\Vinfast.api\\Vinfast.api.csproj",
         "projectName": "Vinfast.api",
-        "projectPath": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj",
+        "projectPath": "D:\\DuanVinFast\\Vinfast.api\\Vinfast.api.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DuAnVinFast\\Vinfast.api\\obj\\",
+        "outputPath": "D:\\DuanVinFast\\Vinfast.api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {
-                "projectPath": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj"
+              "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj": {
+                "projectPath": "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {
+    "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj",
+        "projectUniqueName": "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj",
         "projectName": "Vinfast.models",
-        "projectPath": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj",
+        "projectPath": "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DuAnVinFast\\Vinfast.models\\obj\\",
+        "outputPath": "D:\\DuanVinFast\\Vinfast.models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -131,14 +131,14 @@
         }
       }
     },
-    "D:\\DuAnVinFast\\Vinfast.web\\Vinfast.web.csproj": {
+    "D:\\DuanVinFast\\Vinfast.web\\Vinfast.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DuAnVinFast\\Vinfast.web\\Vinfast.web.csproj",
+        "projectUniqueName": "D:\\DuanVinFast\\Vinfast.web\\Vinfast.web.csproj",
         "projectName": "Vinfast.web",
-        "projectPath": "D:\\DuAnVinFast\\Vinfast.web\\Vinfast.web.csproj",
+        "projectPath": "D:\\DuanVinFast\\Vinfast.web\\Vinfast.web.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\DuAnVinFast\\Vinfast.web\\obj\\",
+        "outputPath": "D:\\DuanVinFast\\Vinfast.web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,11 +155,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj": {
-                "projectPath": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj"
+              "D:\\DuanVinFast\\Vinfast.api\\Vinfast.api.csproj": {
+                "projectPath": "D:\\DuanVinFast\\Vinfast.api\\Vinfast.api.csproj"
               },
-              "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {
-                "projectPath": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj"
+              "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj": {
+                "projectPath": "D:\\DuanVinFast\\Vinfast.models\\Vinfast.models.csproj"
               }
             }
           }
