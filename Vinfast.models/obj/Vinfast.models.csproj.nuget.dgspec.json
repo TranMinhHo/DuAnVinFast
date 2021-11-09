@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj": {}
+    "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {}
   },
   "projects": {
-    "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj": {
+    "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj",
+        "projectUniqueName": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj",
         "projectName": "Vinfast.models",
-        "projectPath": "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj",
+        "projectPath": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Vinfast\\Vinfast.models\\obj\\",
+        "outputPath": "D:\\DuAnVinFast\\Vinfast.models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

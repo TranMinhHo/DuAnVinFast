@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oprpvIn9S3/fkZaHUc7nYEEb9EpfFRfRnRPTZCbxG301tnvD/TiKeaeEJl82og0XUk7/7HBS/Lzq39UKv51jCA==",
+  "dgSpecHash": "T1kJxZUSKQBipJuJ5rkyn4on3GUGO0g0SpP5xiwm/mLjzcmeLBoC7t43qayFclORww1ywcrGBIG4wo9T/9+oKg==",
   "success": true,
-  "projectFilePath": "D:\\Vinfast\\Vinfast.api\\Vinfast.api.csproj",
+  "projectFilePath": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

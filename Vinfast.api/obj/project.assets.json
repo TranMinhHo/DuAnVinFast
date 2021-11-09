@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vinfast\\Vinfast.api\\Vinfast.api.csproj",
+      "projectUniqueName": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj",
       "projectName": "Vinfast.api",
-      "projectPath": "D:\\Vinfast\\Vinfast.api\\Vinfast.api.csproj",
+      "projectPath": "D:\\DuAnVinFast\\Vinfast.api\\Vinfast.api.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Vinfast\\Vinfast.api\\obj\\",
+      "outputPath": "D:\\DuAnVinFast\\Vinfast.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5838,8 +5838,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj": {
-              "projectPath": "D:\\Vinfast\\Vinfast.models\\Vinfast.models.csproj"
+            "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj": {
+              "projectPath": "D:\\DuAnVinFast\\Vinfast.models\\Vinfast.models.csproj"
             }
           }
         }

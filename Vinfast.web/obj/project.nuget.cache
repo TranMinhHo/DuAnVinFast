@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zRcat8XtzEhH7xzzpMHjR/aVHaJmv8PJyTzT7UcK89588Hb+HQzHyWB12IvswAmieP6ppnZZJMG60f3yAORpXQ==",
+  "dgSpecHash": "w5rL+/zIlUvKXpfExpztxyhE5+Qxb+HkY650e6SArltlLDnYoSSuVKZBN+NWQO/UtRIuYJ0oT9KOKQnqPoE96g==",
   "success": true,
-  "projectFilePath": "D:\\Vinfast\\Vinfast.web\\Vinfast.web.csproj",
+  "projectFilePath": "D:\\DuAnVinFast\\Vinfast.web\\Vinfast.web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.blazor.httpclient\\3.2.0-preview3.20168.3\\microsoft.aspnetcore.blazor.httpclient.3.2.0-preview3.20168.3.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
