@@ -1,10 +1,10 @@
 @import '';
 
 /* _content/Vinfast.web/Shared/MainLayout.razor.rz.scp.css */
+
 .navigation-bar[b-p3fz4owbg2] {
     width: 100%; /* i'm assuming full width */
     height: 80px; /* change it to desired width */
-    background-color: red; /* change to desired color */
 }
 #navigation-container[b-p3fz4owbg2] {
     position: relative;
@@ -25,7 +25,6 @@ a[b-p3fz4owbg2] {
     color: black;
     font-size: 16px;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
-    padding: 15px 15px;
     opacity: 0.7;
     margin-top:15px;
     margin-left:5px;
@@ -36,14 +35,17 @@ li[b-p3fz4owbg2] {
     display: flex;
     flex-direction: row;
     align-items: center;
+    text-align:center;
+   
 }
 image[b-p3fz4owbg2] {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: central;
     width: 50px;
     height: 50px;
     margin-right: 20px;
-    margin-top: 15px;
+    
+   
 }
 
 

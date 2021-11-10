@@ -1,5 +1,6 @@
 ﻿@page "/"
 @inherits ProductListBase
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
         textarea {
             resize: none;
@@ -47,16 +48,22 @@
             }
         .title{
             font-size:20px;
-            color:aqua;
+            color:#0f112c;
+            font-weight:bold;
         }
         .contents{
             font-size:15px;
         }
-        .li{
-            margin-top:10px;
-            margin-bottom:10px;
-            font-weight:bold;
+     
+        ul{
+            list-style:none;
+           
         }
+        ul li{
+            text-align:left;
+            padding-left:100px;
+        }
+       
     </style>
 <img class="banner" src="/image/banner1.jpg"/>
 <section class="section">
@@ -136,17 +143,16 @@
                         <option>Cá Nhân</option>
                     </select>
                     <h5 style="margin-top: 5px; font-weight: bold">Họ tên khách hàng <span style="color:blue">*</span></h5>
-                    <textarea style="width:700px;height:50px" required></textarea>
+                    <textarea style="width: 700px; height: 50px; padding-top: 10px; padding-left: 10px; " placeholder="Điền đầy đủ họ tên.."></textarea>
 
                     <h5 style="font-weight: bold">Doanh Nghiệp <span style="color:blue">*</span></h5>
-                    <textarea style="width:700px;height:50px" required></textarea>
+                    <textarea style="width:700px;height:50px;padding-top:10px;padding-left:10px;" placeholder="Tên doanh nghiệp.."></textarea>
 
                     <h5 style="font-weight: bold">Số điện thoại <span style="color:blue">*</span></h5>
-                    <textarea style="width:700px;height:50px" required></textarea>
+                    <textarea style="width: 700px; height: 50px; padding-top: 10px; padding-left: 10px; " placeholder="Số điện thoại của bạn.."></textarea>
 
                     <h5 style="font-weight: bold">Email <span style="color:blue">*</span></h5>
-                    <textarea style="width:700px;height:50px" required></textarea>
-
+                    <textarea style="width: 700px; height: 50px; padding-top: 10px; padding-left: 10px; " placeholder="Email của bạn.."></textarea>
 
                 </form>
             </td>
@@ -219,8 +225,8 @@
             </td>
         </tr>
     </table>
-   
-    <hr style="border: 3px solid #00ffff" />
+
+    <hr />
     <table class="tb">
         <tr>
             <td width="100%" align="center">
@@ -228,22 +234,26 @@
             </td>
         </tr>
     </table>
-    <hr style="border: 3px solid #00ffff" />
+
+    <hr style="border: 3px solid #0f112c; width:95%" />
+    <hr style="border: 3px solid #0f112c; width:92%" />
+    <hr style="border: 3px solid #0f112c; width:90%" />
+
     <table class="tb">
         <tr>
-            <td width="20%" style="text-align: left">
+            <td width="20%" style="text-align: center">
                 <p class="title">GIỚI THIỆU</p>
             </td>
-            <td width="20%" style="text-align: left">
+            <td width="20%" style="text-align: center">
                 <p class="title">XE Ô TÔ</p>
             </td>
-            <td width="20%" style="text-align: left">
+            <td width="20%" style="text-align: center">
                 <p class="title">XE MÁY ĐIỆN</p>
             </td>
-            <td width="20%" style="text-align: left">
+            <td width="20%" style="text-align: center">
                 <p class="title">TIN TỨC NỔI BẬT</p>
             </td>
-            <td width="20%" style="text-align: left">
+            <td width="20%" style="text-align: center">
                 <p class="title">HỖ TRỢ</p>
             </td>
         </tr>
@@ -310,6 +320,81 @@
                     <li>Đặt lịch bảo dưỡng</li>
                     <li>Liên hệ</li>
                 </ul>
+            </td>
+        </tr>
+    </table>
+
+    <hr style="border: 3px solid #0f112c; width:90%" />
+    <hr style="border: 3px solid #0f112c; width:92%" />
+    <hr style="border: 3px solid #0f112c; width:95%" />
+
+    <table class="tb">
+        <tr>
+            <td width="20%" style="text-align:right">
+                <p>Hot line & Email</p>
+            </td>
+            <td width="20%" style="text-align:center">
+                <button class="button">
+                    <i class="fa fa-phone" style="transform:scale(1.25);margin-right:10px"></i>
+                    1900 23 23 89<br />
+                    (1000đ/p)
+                </button>
+            </td>
+            <td width="20%" style="text-align:left
+    ">
+                <button class="button">
+                    <i class="fa fa-envelope" style="transform:scale(1.25);margin-right:10px"></i>
+                    minhho1220@gmail.com
+                </button>
+            </td>
+            <td width="20%" style="text-align:right">
+                <p>Kết nối với VinFast</p>
+            </td>
+            <td width="20%" style="text-align:center">
+                <button onclick="https://www.facebook.com/VinFastAuto.Official" style="border-radius:50%;text-align:center;width:50px;height:50px;border-color:#c3c3c3;">
+                    <i class="fa fa-facebook" style="transform:scale(1.25)"></i>
+                </button>
+                <button onclick="https://www.facebook.com/VinFastEscooter.Official" style="border-radius: 50%; text-align: center; width: 50px; height: 50px; border-color: #c3c3c3 ">
+                    <i class="fa fa-facebook" style="transform:scale(1.25)"></i>
+                </button>
+                <button onclick="https://www.youtube.com/channel/UCA5OijDHvvWJ3vy5iVdWcAQ" style="border-radius: 50%; text-align: center; width: 50px; height: 50px; border-color: #c3c3c3 ">
+                    <i class="fa fa-youtube-play" style="transform:scale(1.25)"></i>
+                </button>
+            </td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <td width="20%" style="text-align:left">
+                <p>
+                    <b>
+                        Công ty TNHH Kinh doanh Thương mại
+                        và Dịch vụ VinFast
+                    </b>
+                    <br />
+                    VinFast. All rights reserved.
+                    © Copyright 2020
+                </p>
+            </td>
+            <td width="20%">
+            </td>
+            <td width="40%" style="text-align:left">
+                <p>
+                    <b>Số đăng ký kinh doanh:</b> 0108926276<br />
+
+                    <b>Đăng ký lần đầu:</b> Ngày 01 tháng 10 năm 2019<br />
+
+                    <b>Đăng ký thay đổi lần thứ 3:</b> Ngày 17 tháng 03 năm 2020<br />
+
+                    <b>Nơi cấp:</b> Sở Kế hoạch và Đầu tư Thành phố Hà Nội
+                </p>
+            </td>
+
+            <td width="30%" style="text-align:left">
+                <p>
+                    <b>Địa chỉ:</b> Số 7, Đường Bằng Lăng 1, Khu đô thị sinh thái<br />
+                    Vinhomes Riverside, Phường Việt Hưng, Quận Long Biên, Thành phố Hà Nội, Việt Nam
+                </p>
             </td>
         </tr>
     </table>

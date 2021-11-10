@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Vinfast.web.Services;
+using AutoMapper;
 
 namespace Vinfast.web
 {
@@ -32,7 +33,7 @@ namespace Vinfast.web
              {
                  client.BaseAddress = new Uri("https://localhost:44388/");
              });
-
+            services.AddAutoMapper(typeof(ProductProfile));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

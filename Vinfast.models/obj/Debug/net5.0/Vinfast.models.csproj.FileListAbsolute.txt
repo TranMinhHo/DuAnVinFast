@@ -10,3 +10,15 @@ D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.csproj.CoreCompileInpu
 D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.dll
 D:\Vinfast\Vinfast.models\obj\Debug\net5.0\ref\Vinfast.models.dll
 D:\Vinfast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.pdb
+D:\DuAnVinFast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.deps.json
+D:\DuAnVinFast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.dll
+D:\DuAnVinFast\Vinfast.models\bin\Debug\net5.0\ref\Vinfast.models.dll
+D:\DuAnVinFast\Vinfast.models\bin\Debug\net5.0\Vinfast.models.pdb
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.csproj.AssemblyReference.cache
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.GeneratedMSBuildEditorConfig.editorconfig
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.AssemblyInfoInputs.cache
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.AssemblyInfo.cs
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.csproj.CoreCompileInputs.cache
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.dll
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\ref\Vinfast.models.dll
+D:\DuAnVinFast\Vinfast.models\obj\Debug\net5.0\Vinfast.models.pdb

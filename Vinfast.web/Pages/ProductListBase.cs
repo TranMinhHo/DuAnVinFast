@@ -15,6 +15,7 @@ namespace Vinfast.web.Pages
         public IProduceService ProduceService { get; set; }
         public IEnumerable<Product> Products { get; set; }
         public bool ShowFooter { get; set; } = true;
+        
         protected override async Task OnInitializedAsync()
         {
             Products = (await ProduceService.GetProducts()).ToList();

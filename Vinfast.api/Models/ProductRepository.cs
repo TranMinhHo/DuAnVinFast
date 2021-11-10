@@ -41,7 +41,6 @@ namespace Vinfast.api.Models
             {
                 result.Name = product.Name;
                 result.Price = product.Price;
-                result.version.VersionId = product.version.VersionId;
                 result.PhotoPath = product.PhotoPath;
                 await appDbContext.SaveChangesAsync();
                 return result;

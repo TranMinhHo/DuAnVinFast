@@ -116,6 +116,24 @@ namespace Vinfast.api.Controllers
                     "Error deleting data");
             }
         }
+        [HttpPut()]
+        public async Task<ActionResult<Product>> UpdateProduct(Product product)
+        {
+            try
+            {
+                var productToUpdate = await productRepository.GetProduct(product.ProductId);
+                if(productToUpdate==null)
+                {
+                    return NotFound($"Product with ID = {product.ProductId} not found");
+                }
+                return await productRepository.UpdateProduct(product);
+            }
+            catch(Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,
+                     "Error updating data");
+            }
+        }
 
     }
 }
