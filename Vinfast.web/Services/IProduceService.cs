@@ -11,5 +11,6 @@ namespace Vinfast.web.Services
         Task<IEnumerable<Product>> GetProducts();
         Task<Product> GetProduct(int id);
         Task<Product> UpdateProduct(Product updatedProduct);
+        Task<Product> CreateProduct(Product newProduct);
     }
 }

@@ -27,5 +27,10 @@ namespace Vinfast.web.Services
         {
             return await httpClient.PutJsonAsync<Product>("api/product", updatedProduct);
         }
+        public async Task<Product> CreateProduct(Product newProduct)
+        {
+            return await httpClient.PostJsonAsync<Product>("api/product", newProduct);
+        }
+
     }
 }

@@ -1,4 +1,6 @@
 ﻿@page "/editproduct/{id}"
+@page "/editproduct"
+
 @inherits EditProductBase
 
 <EditForm Model="@EditProductModel" OnValidSubmit="HandleValidSubmit">
@@ -28,5 +30,6 @@
         <ValidationMessage For="@(()=>EditProductModel.PriceDisplay)" />
     </div>
     <br />
+
     <button class="btn btn-primary" type="submit">Submit</button>
 </EditForm>

@@ -26,8 +26,20 @@ namespace Vinfast.web.Pages
         public NavigationManager NavigationManager { get; set; }
         protected async override Task OnInitializedAsync()
         {
+            int.TryParse(Id, out int productId);
 
-            Product = await ProduceService.GetProduct(int.Parse(Id));
+            if(productId !=0)
+            {
+                Product = await ProduceService.GetProduct(int.Parse(Id));
+            }
+            else
+            {
+                Product = new Product
+                {
+                    PhotoPath = "/image/nophoto.png"
+                };
+                
+            }
 
            Mapper.Map(Product, EditProductModel);
 
@@ -43,7 +55,18 @@ namespace Vinfast.web.Pages
         protected async Task HandleValidSubmit()
         {
             Mapper.Map(EditProductModel, Product);
-            var result = await ProduceService.UpdateProduct(Product);
+            Product result = null;
+
+            if(Product.ProductId != 0)
+            {
+               result = await ProduceService.UpdateProduct(Product);
+            }
+            else
+            {
+                result = await ProduceService.CreateProduct(Product);
+            }
+
+         
 
             if(result!=null)
             {
