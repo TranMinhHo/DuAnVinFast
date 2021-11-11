@@ -32,5 +32,9 @@ namespace Vinfast.web.Services
             return await httpClient.PostJsonAsync<Product>("api/product", newProduct);
         }
 
+        public async Task DeleteProduct(int id)
+        {
+            await httpClient.DeleteAsync($"api/product/{id}");
+        }
     }
 }

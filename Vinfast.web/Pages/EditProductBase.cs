@@ -73,5 +73,11 @@ namespace Vinfast.web.Pages
                 NavigationManager.NavigateTo("https://localhost:44303/allproduct");
             }
         }
+        protected async Task Delete_Click()
+        {
+            await ProduceService.DeleteProduct(Product.ProductId);
+            NavigationManager.NavigateTo("https://localhost:44303/allproduct");
+
+        }
     }
 }
