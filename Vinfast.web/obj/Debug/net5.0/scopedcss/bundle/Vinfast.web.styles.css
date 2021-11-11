@@ -3,21 +3,26 @@
 /* _content/Vinfast.web/Shared/MainLayout.razor.rz.scp.css */
 
 .navigation-bar[b-p3fz4owbg2] {
-    width: 100%; /* i'm assuming full width */
-    height: 80px; /* change it to desired width */
+    width: 1940px; /* i'm assuming full width */
+    height: 100px; /* change it to desired width*/
 }
 #navigation-container[b-p3fz4owbg2] {
-    position: relative;
+    position: center;
     background-color: #f7f7f7;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    width: 1940px;
+    height: 100px;
+    margin-top: 10px;
 }
 
 ul[b-p3fz4owbg2] {
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    width: 1920px;
+    vertical-align: middle;
+    margin-top: 25px;
 }
 
 a[b-p3fz4owbg2] {
@@ -29,21 +34,22 @@ a[b-p3fz4owbg2] {
     margin-top:15px;
     margin-left:5px;
     font-weight:bold;
+    text-align:center;
+    
 }
 
 li[b-p3fz4owbg2] {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     text-align:center;
+    width:240px;
    
 }
 image[b-p3fz4owbg2] {
-    display: inline-block;
-    vertical-align: central;
+    vertical-align: middle;
     width: 50px;
     height: 50px;
-    margin-right: 20px;
     
    
 }

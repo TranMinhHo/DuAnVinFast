@@ -13,5 +13,6 @@ namespace Vinfast.web.Services
         Task<Product> UpdateProduct(Product updatedProduct);
         Task<Product> CreateProduct(Product newProduct);
         Task DeleteProduct(int id);
+        Task<Product> GetProductByName(string name);
     }
 }

@@ -1,30 +1,30 @@
 ﻿@page "/allproduct"
 @inherits ProductListBase
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <h3>Danh Sach San Pham</h3>
-    <div>San pham da chon : @SelectedProductCount </div>
-    <input type="checkbox" id="showFooter" @bind="ShowFooter" />
-    <label for="showFooter">Show Footer</label>
-    <a href="/editproduct" style="margin-left:1650px;"><i class="fa fa-plus-circle" style="margin-right:10px;transform:scale(1.25)"></i>Thêm Sản Phẩm</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+<h3>Danh Sach San Pham</h3>
+<div>San pham da chon : @SelectedProductCount </div>
+<input type="checkbox" id="showFooter" @bind="ShowFooter" />
+<label for="showFooter">Show Footer</label>
+<a href="/editproduct" style="margin-left:1650px;"><i class="fa fa-plus-circle" style="margin-right:10px;transform:scale(1.25)"></i>Thêm Sản Phẩm</a>
 
-    @if (Products == null)
-    {
-        <div class="loader">
-            <div class="inner one"></div>
-            <div class="inner two"></div>
-            <div class="inner three"></div>
-        </div>
-    }
-    else
-    {
-        <div class="card-deck">
-            @foreach (var product in Products)
-            {
+@if (Products == null)
+{
+    <div class="loader">
+        <div class="inner one"></div>
+        <div class="inner two"></div>
+        <div class="inner three"></div>
+    </div>
+}
+else
+{
+    <div class="card-deck">
+        @foreach (var product in Products)
+        {
 
-                <DisplayProduct Product="product" ShowFooter="ShowFooter" 
-                                OnProductSelection="ProductSelectionChange"
-                                OnProductDeleted="ProductDeleted"></DisplayProduct>
-            }
+            <DisplayProduct Product="product" ShowFooter="ShowFooter"
+                            OnProductSelection="ProductSelectionChange"
+                            OnProductDeleted="ProductDeleted"></DisplayProduct>
+        }
 
-        </div>
-    }
+    </div>
+}

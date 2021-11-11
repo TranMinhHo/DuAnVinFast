@@ -36,5 +36,10 @@ namespace Vinfast.web.Services
         {
             await httpClient.DeleteAsync($"api/product/{id}");
         }
+
+        public async Task<Product> GetProductByName(string name)
+        {
+            return await httpClient.GetJsonAsync<Product>($"api/product/{name}");
+        }
     }
 }
