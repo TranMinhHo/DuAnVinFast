@@ -21,7 +21,9 @@
             @foreach (var product in Products)
             {
 
-                <DisplayProduct Product="product" ShowFooter="ShowFooter" OnProductSelection="ProductSelectionChange"></DisplayProduct>
+                <DisplayProduct Product="product" ShowFooter="ShowFooter" 
+                                OnProductSelection="ProductSelectionChange"
+                                OnProductDeleted="ProductDeleted"></DisplayProduct>
             }
 
         </div>

@@ -220,3 +220,13 @@ D:\DuAnVinFast\Vinfast.web\obj\Debug\net5.0\Vinfast.web.pdb
 D:\DuAnVinFast\Vinfast.web\obj\Debug\net5.0\Vinfast.web.genruntimeconfig.cache
 D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\AutoMapper.dll
 D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Mh.Components.StaticWebAssets.xml
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.AspNetCore.Authorization.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Forms.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.AspNetCore.Components.Web.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.AspNetCore.Metadata.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Microsoft.JSInterop.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Mh.Components.dll
+D:\DuAnVinFast\Vinfast.web\bin\Debug\net5.0\Mh.Components.pdb

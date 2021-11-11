@@ -20,6 +20,12 @@ namespace Vinfast.web.Pages
         {
             Products = (await ProduceService.GetProducts()).ToList();
         }
+        
+        protected async Task ProductDeleted()
+        {
+            Products = (await ProduceService.GetProducts()).ToList();
+        }
+
         protected int SelectedProductCount { get; set; } = 0;
 
         protected void ProductSelectionChange(bool isSelected)

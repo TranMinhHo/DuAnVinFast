@@ -10,6 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mh.Components\Mh.Components.csproj" />
     <ProjectReference Include="..\Vinfast.api\Vinfast.api.csproj" />
     <ProjectReference Include="..\Vinfast.models\Vinfast.models.csproj" />
   </ItemGroup>
