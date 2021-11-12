@@ -73,7 +73,7 @@
                 <div class="image">
                     <div id="zoom-in">
                         <figure>
-                            <img src="/image/luxa.jpg">
+                            <img src="/image/luxa.jpg" @onclick="Img_A20">
                             <figcaption>LUX A2.0</figcaption>
                         </figure>
                     </div>
@@ -83,7 +83,7 @@
                 <div class="image">
                     <div id="zoom-in">
                         <figure>
-                            <img src="/image/luxsa.jpg">
+                            <img src="/image/luxsa.jpg" @onclick="Img_Sa">
                             <figcaption>LUX SA2.0</figcaption>
                         </figure>
                     </div>
@@ -93,8 +93,20 @@
                 <div class="image">
                     <div id="zoom-in">
                         <figure>
-                            <img src="/image/fadilhight.jpg">
+                            <img src="/image/fadilhight.jpg" @onclick="Img_Fadil">
+
                             <figcaption>FADIL</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </td>
+            <td align="center">
+                <div class="image">
+                    <div id="zoom-in">
+                        <figure>
+                            <img src="/image/President-highlight.jpg" @onclick="Img_President">
+
+                            <figcaption>PRESIDENT</figcaption>
                         </figure>
                     </div>
                 </div>
@@ -104,11 +116,11 @@
     <hr />
     <table class="tb">
         <tr>
-            <td align="center" width="50%"><img src="/image/sa.png" /></td>
+            <td align="center" width="50%"><img src="@ImageOnClick1" /></td>
             <td align="center" width="50%">
-                <h1>LUX SA2.0</h1>
+                <h1>@Ten</h1>
                 <hr />
-                <h5>Số tiền đặt cọc</h5><h2 style="color:cornflowerblue">50.000.000</h2><br />
+                <h5>Số tiền đặt cọc</h5><h2 style="color:cornflowerblue">@Datcoc</h2><br />
                 <h5>Lựa chọn phiên bảng xe</h5>
                 <div>
                     <button class="button">TIÊU CHUẨN</button>
