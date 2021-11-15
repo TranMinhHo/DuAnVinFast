@@ -1,5 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
   <ContentRoot BasePath="/" Path="D:\DuAnVinFast\Vinfast.web\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/Identity" Path="C:\Users\Admin\.nuget\packages\microsoft.aspnetcore.identity.ui\5.0.12\staticwebassets\V4\" />
   <ContentRoot BasePath="_content/Mh.Components" Path="D:\DuAnVinFast\Mh.Components\obj\Debug\net5.0\scopedcss\projectbundle\" />
   <ContentRoot BasePath="_content/Mh.Components" Path="D:\DuAnVinFast\Mh.Components\wwwroot\" />
   <ContentRoot BasePath="_content/Vinfast.api" Path="D:\DuAnVinFast\Vinfast.api\wwwroot\" />
