@@ -51,10 +51,7 @@
                         <i class="fa fa-home" style="transform: scale(1.25);  "></i>
                         <a href="https://localhost:44303/">Trang Chủ</a>
                     </li>
-                    <li>
-                        <i class="fa fa-star" style="transform: scale(1.25); "></i>
-                        <a href="https://localhost:44303/allproduct" style="width:260px;">Tất cả sản phẩm</a>
-                    </li>
+                   
                     <li>
                         <i class="fa fa-car" style="transform: scale(1.25);  "></i>
                         <a href="#">Ô tô</a>
@@ -78,16 +75,23 @@
                     <AuthorizeView>
                         <Authorized>
                             <li>
+                                <NavLink href="https://localhost:44303/allproduct" Match="NavLinkMatch.All">
+                                    <i class="fa fa-wrench" style="transform: scale(1.25);color:#1ec30b "></i><br />
+                                    <span style="font-size: 13px; color: #1ec30b ">Quản lý sản phẩm</span>
+                                </NavLink>
+                            </li>
+                           
+                            <li>
                                 <NavLink href="/identity/account/logout" Match="NavLinkMatch.All">
-                                    <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
-                                    Logout
+                                    <i class="fa fa-sign-out" style="transform: scale(1.25);color:red  "></i><br />
+                                    <span style="color:red">Logout</span>
                                 </NavLink>
                             </li>
                         </Authorized>
                         <NotAuthorized>
                             <li>
                                 <NavLink href="/identity/account/login" Match="NavLinkMatch.All">
-                                    <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
+                                    <i class="fa fa-sign-in" style="transform: scale(1.25);  "></i><br />
                                     Login
                                 </NavLink>
                             </li>
