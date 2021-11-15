@@ -56,7 +56,7 @@ namespace Vinfast.web.Pages
             Products = (await ProduceService.GetProducts()).ToList();
             ImageOnClick1 = "/image/sa360.png";
             Datcoc = "50.000.000";
-            Ten = "SA2.0";
+            Ten = "LUX SA2.0";
         }
         public async Task Img_President()
         {
@@ -70,7 +70,7 @@ namespace Vinfast.web.Pages
             Products = (await ProduceService.GetProducts()).ToList();
             ImageOnClick1 = "/image/a360.png";
             Datcoc = "50.000.000";
-            Ten = "A20";
+            Ten = "LUX A20";
         }
     }
  }

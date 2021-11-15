@@ -11,8 +11,10 @@ namespace Vinfast.web.Pages
 {
     public class EditProductBase :ComponentBase
     {
+       
         [Inject]
         public IProduceService ProduceService { get; set; }
+        public string HeaderText { get; set; }
         private Product Product { get; set; } = new Product();
         public EditProductModel EditProductModel { get; set; } = new EditProductModel();
        
@@ -30,10 +32,12 @@ namespace Vinfast.web.Pages
 
             if(productId !=0)
             {
+                HeaderText = "Edit Product";
                 Product = await ProduceService.GetProduct(int.Parse(Id));
             }
             else
             {
+                HeaderText = "Create Product";
                 Product = new Product
                 {
                     PhotoPath = "/image/nophoto.png"
@@ -59,10 +63,12 @@ namespace Vinfast.web.Pages
 
             if(Product.ProductId != 0)
             {
+               
                result = await ProduceService.UpdateProduct(Product);
             }
             else
             {
+                
                 result = await ProduceService.CreateProduct(Product);
             }
 
