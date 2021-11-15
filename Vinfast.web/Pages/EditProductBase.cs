@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Components.Authorization;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using Vinfast.models;
 using Vinfast.web.Services;
@@ -11,7 +13,9 @@ namespace Vinfast.web.Pages
 {
     public class EditProductBase :ComponentBase
     {
-       
+        [CascadingParameter]
+        public Task<AuthenticationState> authenticationStateTask { get; set; }
+
         [Inject]
         public IProduceService ProduceService { get; set; }
         public string HeaderText { get; set; }
@@ -28,6 +32,14 @@ namespace Vinfast.web.Pages
         public NavigationManager NavigationManager { get; set; }
         protected async override Task OnInitializedAsync()
         {
+            var authenticationState = await authenticationStateTask;
+
+            if(!authenticationState.User.Identity.IsAuthenticated)
+            {
+                string returnUrl = WebUtility.UrlEncode($"/editproduct/{Id}");
+                NavigationManager.NavigateTo($"/identity/account/login?returnUrl={returnUrl}");
+            }
+
             int.TryParse(Id, out int productId);
 
             if(productId !=0)

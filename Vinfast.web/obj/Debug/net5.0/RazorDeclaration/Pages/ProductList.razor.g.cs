@@ -82,6 +82,13 @@ using Vinfast.web.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 4 "D:\DuAnVinFast\Vinfast.web\Pages\ProductList.razor"
+           [Authorize]
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/allproduct")]
     public partial class ProductList : ProductListBase
     {

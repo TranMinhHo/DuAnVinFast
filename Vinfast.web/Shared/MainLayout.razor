@@ -75,20 +75,24 @@
                         <i class="fa fa-cog" style="transform: scale(1.25);"></i>
                         <a href="#">Công cụ</a>
                     </li>
-
-                    <li>
-                        <NavLink href="/identity/account/login" Match="NavLinkMatch.All">
-                            <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
-                            Login
-                        </NavLink>
-                    </li>
-                    <li>
-                        <NavLink href="/identity/account/logout" Match="NavLinkMatch.All">
-                            <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
-                            Logout
-                        </NavLink>
-                    </li>
-
+                    <AuthorizeView>
+                        <Authorized>
+                            <li>
+                                <NavLink href="/identity/account/logout" Match="NavLinkMatch.All">
+                                    <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
+                                    Logout
+                                </NavLink>
+                            </li>
+                        </Authorized>
+                        <NotAuthorized>
+                            <li>
+                                <NavLink href="/identity/account/login" Match="NavLinkMatch.All">
+                                    <i class="fa fa-user" style="transform: scale(1.25);  "></i><br />
+                                    Login
+                                </NavLink>
+                            </li>
+                        </NotAuthorized>
+                    </AuthorizeView>
                 </ul>
             </div>
         </div>

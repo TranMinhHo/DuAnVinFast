@@ -1,5 +1,8 @@
 ﻿@page "/allproduct"
 @inherits ProductListBase
+
+@attribute [Authorize]
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 <h3>Danh Sach San Pham</h3>
 <div>San pham da chon : @SelectedProductCount </div>
