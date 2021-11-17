@@ -18,12 +18,24 @@
                 <h4>Price : @Product.Price</h4>
                 <button class="btn btn-primary" @onclick="@Button_Click">@ButtonText</button>
             </div>
-           
-            <div class="card-footer text-center @CssClass">
-                <a href="https://localhost:44303/allproduct" class="btn btn-primary">Back</a>
-                <a href="#" class="btn btn-primary">Edit</a>
-                <a href="#" class="btn btn-danger">Delete</a>
-            </div>
+           <AuthorizeView>
+               <Authorized>
+                   <div class="card-footer text-center @CssClass">
+                       <a href="#" class="btn btn-primary">Edit</a>
+                       <a class="btn btn-danger m-1" @onclick="Delete_Click">Delete</a>
+                       <a href="https://localhost:44303/viewcar" class="btn btn-primary">Back</a>
+
+                   </div>
+               </Authorized>
+               <NotAuthorized>
+                   <div class="card-footer text-center @CssClass">
+                       <a href="https://localhost:44303/viewcar" class="btn btn-primary">Back</a>
+                   </div>
+               </NotAuthorized>
+           </AuthorizeView>
         </div>
     </div>
 </div>
+<Mh.Components.Confirm @ref="DeleteConfirmation" ConfirmationChanged="ConfirmDelete_Click"
+                       ConfirmationMessage=@($"Are you sure you want to delete \"{Product.Name}\"")>
+</Mh.Components.Confirm>

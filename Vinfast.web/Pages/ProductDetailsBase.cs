@@ -33,6 +33,26 @@ namespace Vinfast.web.Pages
         protected string ButtonText { get; set; } = "Hide Footer";
         protected string CssClass { get; set; } = null;
 
+
+
+        [Parameter]
+        public EventCallback<int> OnProductDeleted { get; set; }
+        [Inject]
+        public NavigationManager NavigationManager { get; set; }
+        protected Mh.Components.ConfirmBase DeleteConfirmation { get; set; }
+        public void Delete_Click()
+        {
+            DeleteConfirmation.Show();
+        }
+        protected async Task ConfirmDelete_Click(bool deleteConfirmed)
+        {
+            if (deleteConfirmed)
+            {
+                await ProduceService.DeleteProduct(Product.ProductId);
+                await OnProductDeleted.InvokeAsync(Product.ProductId);
+                NavigationManager.NavigateTo("https://localhost:44303/viewcar");
+            }
+        }
         protected void Button_Click()
         {
             if (ButtonText == "Hide Footer")

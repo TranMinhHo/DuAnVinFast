@@ -14,9 +14,10 @@ namespace Vinfast.web.Pages
         [StringLength(100, MinimumLength = 2)]
         public string Name { get; set; }
         public version version { get; set; }
+        [Required(ErrorMessage = "Giá không được để trống")]
         public Int64 Price { get; set; }
         public string PhotoPath { get; set; }
-        [Required(ErrorMessage = "Giá không được để trống")]
+       
         public string PriceDisplay { get; set; }
 
     }

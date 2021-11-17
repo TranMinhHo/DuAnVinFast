@@ -38,6 +38,7 @@ namespace Vinfast.web.Pages
             {
                 await ProduceService.DeleteProduct(Product.ProductId);
                 await OnProductDeleted.InvokeAsync(Product.ProductId);
+                
             }
         }
 
